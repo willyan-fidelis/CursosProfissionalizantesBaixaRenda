@@ -80,6 +80,7 @@ namespace MercadoDescontoBaixaRenda
                 new RadioBoxFieldProps() { ColorOn = Color.Orange, ColorOff = Color.Orange, Text = "Semana 2", Value = 1 },
                 new RadioBoxFieldProps() { ColorOn = Color.Orange, ColorOff = Color.Orange, Text = "Semana 3", Value = 2 },
                 new RadioBoxFieldProps() { ColorOn = Color.Orange, ColorOff = Color.Orange, Text = "Semana 4", Value = 3 },
+                new RadioBoxFieldProps() { ColorOn = Color.Orange, ColorOff = Color.Orange, Text = "Semana 5", Value = 4 },
             };
             radioBoxField1.Config(radioList, (int?)Semana.Semana1, () => { return true; }, (elem, index) => {
                 Semana SemanaSelecionada = (Semana)index;
